@@ -39,8 +39,33 @@ console.log(`The student size is ${studentSize}.`);*/
 
 /*let userName = window.prompt("What's ur Username?");
 console.log(`Hello ${userName}.`);*/
-let username;
+
+/* let username;
 document.getElementById("submitBtn").onclick = function() {
     username = document.getElementById("UserName").value;
     document.getElementById("Myh1").textContent = `Hello ${username}.`;
-}
+} */
+
+/* let age = window.prompt("How old are you?");
+age =Number(age);
+age += 1;
+console.log(age, typeof age); */
+
+/* let x = "";
+let y = "";
+let z = "";
+x = Number(x);
+y = String(y);
+z = Boolean(z);
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z); */
+
+/* const PI = 3.142;
+let circumference;
+document.getElementById("calcBtn").onclick = function() {
+    let radius = document.getElementById("radius").value;
+    radius = Number(radius);
+    circumference = 2 * PI * radius;
+    document.getElementById("Myh2").textContent = `The circumference of the circle is ${circumference} cm.`;
+} */
