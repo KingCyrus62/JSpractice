@@ -69,3 +69,16 @@ document.getElementById("calcBtn").onclick = function() {
     circumference = 2 * PI * radius;
     document.getElementById("Myh2").textContent = `The circumference of the circle is ${circumference} cm.`;
 } */
+let x=3.99;
+let y = 2;
+let z;
+
+// z = Math.floor(x);
+//z = Math.ceil(x);
+// z = Math.trunc(x);
+// z = Math.pow(x, y);
+// z = Math.pow(x);
+// console.log(Math.PI);
+// console.log(Math.E);
+
+
