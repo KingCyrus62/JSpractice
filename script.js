@@ -80,5 +80,29 @@ let z;
 // z = Math.pow(x);
 // console.log(Math.PI);
 // console.log(Math.E);
+// z = Math.sqrt(x);
+/* z = Math.sin(x);
+console.log(z);
+z = Math.cos(x);
+console.log(z);
+z = Math.tan(x);
+console.log(z); */
+
+/* z = Math.abs(x);
+z = Math.sign(x);
+z = Math.round(x);
+z = Math.min(x, y, z);
+z = Math.max(x, y, z);
+z = Math.random();
+console.log(z); */
+
+
+/* const min = 50;
+const max = 100;
+let randomNum = Math.floor(Math.random() * (max-min)) + min;
+console.log(randomNum); */
+
+
+
 
 
