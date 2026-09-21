@@ -69,9 +69,9 @@ document.getElementById("calcBtn").onclick = function() {
     circumference = 2 * PI * radius;
     document.getElementById("Myh2").textContent = `The circumference of the circle is ${circumference} cm.`;
 } */
-let x=3.99;
+/* let x=3.99;
 let y = 2;
-let z;
+let z; */
 
 // z = Math.floor(x);
 //z = Math.ceil(x);
@@ -101,6 +101,49 @@ console.log(z); */
 const max = 100;
 let randomNum = Math.floor(Math.random() * (max-min)) + min;
 console.log(randomNum); */
+
+// if statements
+/* let age = 0;
+if (age>=100){
+    console.log(`You are too old to enter this site`);
+}
+else if (age==0){
+    console.log(`You cant enter, you were just born!`);
+}
+else if(age >=18){
+    console.log(`You are old enough to enter this site`);
+}
+else if(age<0){
+    console.log(`Your age cant be below 0`);
+}
+else{
+    console.log(`You must be 18 to enter this site`);
+}*/
+
+
+const myAge = document.getElementById("myAge");
+const submitBtn = document.getElementById("submitBtn");
+const result = document.getElementById("result");
+let age = 0;
+submitBtn.onclick=function(){
+    age = myAge.value;
+    age =Number(age);
+    if (age>=100){
+       result.textContent=`You are too old to enter this site`;
+    }
+    else if (age==0){
+        result.textContent=`You cant enter, you were just born!`;
+    }
+    else if(age >=18){
+        result.textContent=`You are old enough to enter this site`;
+    }
+    else if(age<0){
+        result.textContent=`Your age cant be below 0`;
+    }
+    else{
+        result.textContent=`You must be 18 to enter this site`;
+    }
+}
 
 
 
