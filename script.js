@@ -145,8 +145,89 @@ submitBtn.onclick=function(){
     }
 } */
 
+/* let age = 21;
+let message=age>= 18 ? "You are an adult":"You are a minor";
+console.log(message); */
 
+/* let time = 16;
+let greeting = time <12? "Good morning": "Good afternoon!";
+console.log(greeting); */
 
+/* let isStudent;
+let message = isStudent? "You are a student":"You are not s student";
+console.log(message) */
 
+/* let purchaseAmount = 500;
+let discount = purchaseAmount > 500? 10: 0;
+console.log(`Your total is $${purchaseAmount - purchaseAmount * (discount/100)}`); */
 
+/* let day = 1;
+switch(day){
+    case 1:
+        console.log(`It is Monday!`);
+        break;
+    case 2:
+        console.log(`It is Tuesday!`);
+        break;
+    case 3:
+        console.log(`It is Wednesday!`);
+        break;
+    case 4:
+        console.log(`It is Thursday!`);
+        break;
+    case 5:
+        console.log(`It is Friday!`);
+        break;
+    case 6:
+        console.log(`It is Saturday!`);
+        break;
+    case 7:
+        console.log(`It is Sunday!`);
+        break;
+    default: 
+    console.log(`${day} is not a day..`);
 
+} */
+/* 
+let testScore = 55;
+let letterGrade;
+switch(true) {
+    case testScore>=90:
+        letterGrade ="A";
+        break; 
+    case testScore>=80:
+        letterGrade ="B";
+        break; 
+    case testScore>=70:
+        letterGrade ="C";
+        break;   
+    case testScore>=60:
+        letterGrade ="D";
+        break; 
+    default:
+        letterGrade = File;
+        break;
+} */
+
+/* let userName = "KingCyrus 62";
+console.log(userName.charAt(0));
+console.log(userName.lastIndexOf("55"));
+console.log(userName.length);
+console.log(userName.trim);
+console.log(userName.toUpperCase);
+console.log(userName.toLowerCase);
+let result = userName.startsWith(` `)? "Your username can't begin with a white space" : userName;
+console.log(result);
+
+let result = userName.endsWith(` `)? "Your username can't begin with a white space" : userName;
+console.log(result);
+
+let result = userName.include(` `)? "Your username can't begin with a white space" : userName;
+console.log(result);
+
+let phoneNumber = "123 456 7890";
+phoneNumber = phoneNumber.replaceAll(` `, `-`);
+console.log(phoneNumber);
+
+phoneNumber = phoneNumber.padStart(15, "0");
+phoneNumber = phoneNumber.padEnd(15, "0"); */
