@@ -231,3 +231,54 @@ console.log(phoneNumber);
 
 phoneNumber = phoneNumber.padStart(15, "0");
 phoneNumber = phoneNumber.padEnd(15, "0"); */
+
+ /*const fullName = `IfeOluwa Johnson`;
+let firstName = fullName.slice(0, 8);
+let lastName = fullName.slice (9,16);
+console.log(firstName);
+console.log(lastName); //negative indices work as well */
+
+/*const fullname =`IfeOluwa Johnson`;
+let firstName = fullname.slice(0, fullname.indexOf(" "));
+let lastname = fullname.slice(fullname.indexOf(" ") +1);
+console.log(firstName);
+console.log(lastname); */
+
+/* const email=`ifeJohnson026@gmail.com`;
+let userName = email.slice(0, email.indexOf("@"));
+let extension = email.slice(email.indexOf("@") +1);
+console.log(userName);
+console.log(extension); */
+
+//Method Chaining
+/* let userName = window.prompt(`Enter your Username: `);
+userName = userName.trim();
+let letter = userName.charAt(0);
+letter = letter.toUpperCase();
+
+let extraChars = userName.slice(1);
+extraChars = extraChars.toLowerCase();
+userName = letter + extraChars;
+console.log(userName); // without using method chaining
+
+userName =userName.trim().charAt(0).toUpperCase()+ userName.trim().slice(1).toLowerCase();
+console.log(userName); //with method chaining */
+
+/* Logical operator
+AND = &&
+OR = ||
+NOT = | 
+*/
+const temp = -250;
+if (temp <= 0 && temp > 30){
+    console.log("The weather is good!");
+}
+else{
+    console.log(`the weather is bad`);
+}
+
+const isSunny = true;
+
+
+
+
