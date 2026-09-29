@@ -269,7 +269,8 @@ AND = &&
 OR = ||
 NOT = | 
 */
-const temp = -250;
+
+/* const temp = -250;
 if (temp <= 0 && temp > 30){
     console.log("The weather is good!");
 }
@@ -278,6 +279,91 @@ else{
 }
 
 const isSunny = true;
+if(!isSunny){
+    console.log(`It is cloudy`);
+}
+else{
+    console.log(`it is sunny`)
+} */
+
+//Strict equality operator 
+/* const PI = 3.14;
+if (PI !== "3.14"){
+    console.log(`That is not pi`);
+}
+else{
+    console.log(`This is pi`);
+} */
+
+//WHILE LOOP
+//repeat a block of code while a condition is true
+/* let loggedIn = true;
+let userName;
+let passWord;
+while(!loggedIn){
+    userName = window.prompt(`Enter your username: `);
+    passWord = window.prompt(`Enter your password: `);
+    if(userName === "myUsername" && passWord === "myPassWord"){
+            loggedIn = true;
+            console.log(`you are logged in!`);
+    }
+    else{
+        console.log(`Invalid Credentials! Please try again`);
+    }
+} */
+/* for (let i=2; i<=10; i+=2){
+    console.log(i);
+}
+console.log(`happy new year!!`); */
+/* for (let i=1; i<=20; i++){
+    
+    if(i==13){
+        break;
+    }
+    else{
+        console.log(i);
+    }
+} */
+
+/* FUNCTION is a section of reusable code*/
+/* function happyBirthday(userName, age){
+    console.log(`Happy birthday to you`);
+    console.log(`Happy birthday to you`);
+    console.log(`Happy birthday dear ${userName}`);
+    console.log(`Happy birthday to you`);
+    console.log(`You are ${age} years old!`);
+}
+happyBirthday(`IfeOluwa`, 18); */
+/* function add(x, y){
+    let result =x+y;
+    return result;
+}
+function subtract(x, y){
+    let result =x-y;
+    return result;
+}
+// works for multiplication and division as well
+console.log(add(x,y));
+*/
+/* function even(number){
+    number%2===0? true: false;
+}
+console.log(isEven(14)); */
+/* function isValidEmail(email){
+    if(email.includes(`@`)){
+        return true;
+    }
+    else{
+        return false;
+    }
+    
+}
+console.log(isValidEmail(`ife@johnson.com`));
+console.log(isValidEmail(`ElonMusk.com`)); */
+
+
+
+
 
 
 
