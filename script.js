@@ -26,6 +26,8 @@ console.log(`Bro is online: ${online}`);
 let isStudent = true;
 console.log(`Enrolled? ${isStudent}`); */
 
+
+
 /*let fullName = "Johnson IfeOluwa";
 let age = 17;
 let student = true;
@@ -362,7 +364,39 @@ console.log(isValidEmail(`ife@johnson.com`));
 console.log(isValidEmail(`ElonMusk.com`)); */
 
 
+//variable scope
+/* function function1(){
+    let x=1;
+    console.log(x);
+}
+function function2(){
+    let x=2;
+    console.log(x);
+}
+*/ 
+//functions cant see inside of other functions\
+//global scope of variables: anything declared outside can be seen from insice other functions
+//local scope of variables: anything declared inside function 1 cannot be accessed from inside function 2
 
+
+// let fruits = [`apple`,`banana`,`orange`];
+/* console.log(fruits[0]);
+fruits[1]=`coconut`;
+fruits.push =`grapes`;
+fruits.pop=`blueberries`;
+fruits.unshift=`mango`;
+fruits.shift=`raspberry`;
+let numOfFruits = fruits.length;
+console.log(numOfFruits);
+let index=fruits.indexOf("apple"); */
+/* for (let i=fruits.length-1; i>=0; i--){
+    console.log(fruits[i]);
+} */
+/* for (let fruit of fruits){
+    console.log(fruit);
+}
+fruits.sort();
+fruits.sort().reverse(); */
 
 
 
