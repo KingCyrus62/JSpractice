@@ -398,6 +398,62 @@ let index=fruits.indexOf("apple"); */
 fruits.sort();
 fruits.sort().reverse(); */
 
+//SPREAD OPERATOR
+/* let arrayOfNumbers = [1, 2, 3, 4, 5];
+let maximum = Math.max(...arrayOfNumbers);
+let minimum = Math.min(...arrayOfNumbers);
+console.log(arrayOfNumbers);
+console.log(minimum); */
+/* let userName = "bro Code";
+let letters = [...userName];
+console.log(letters) */
+
+/* let fruits =[`apple`, `banana`, `mango`];
+let veggies = [`carrots`, `celery`, `potatoes`];
+let newFruits = [...fruits, ...veggies, `eggs`, `milk`];
+console.log(newFruits); */
+
+
+// rest parameters do the opposite of spread
+/* function openFridge(...foods){
+    console.log(...foods)
+}
+function getFood(...foods){
+    return foods
+}
+const food1 = `pizza`;
+const food2 = `burgers`;
+const food3 = `hot-dog`;
+const food4 = `sushi`;
+openFridge(food1, food2, food3, food4); 
+const foods = getFood(food1, food2, food3, food4);
+console.log(foods);*/
+
+/* function sum(...numbers){
+    let result=0;
+    for(let number of numbers){
+        result += number;
+    }
+    return result;
+}
+function average(...numbers){
+    let result=0;
+    for(let number of numbers){
+        result += number;
+    }
+    return result/numbers.length;
+}
+const totalAverage = average(75, 62, 45, 98, 100, 65);
+console.log(totalAverage) */
+
+// const total = sum(1,2,3,4,5,6);
+// console.log(`Your total is $${total}`);
+
+/* function combineStrings(...strings){
+    return strings.join(" ");
+}
+const fullName = combineStrings(`Mr`, `Spongebob`, `Squarepants`, `III`);
+console.log(fullName); */
 
 
 
