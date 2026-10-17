@@ -458,3 +458,104 @@ console.log(fullName); */
 
 
 
+//Random Password Generator
+/* function generatePassword(length, includeLowerCase, includeUpperCase, includeNumbers, includeSymbols){
+   
+    const lowerCaseChars = `abcdeghijklmnopqrstuvwxyz`;
+    const upperCaseChars = `ABCDEFGHIJKLMNOPQRSTUVWXYZ`;
+    const numberChars = `0123456789`;
+    const symbolChars = `!@#$%^&*()_`;
+    let allowedChars = "";
+    let password ="";
+    allowedChars += includeLowerCase ? lowerCaseChars : ``;
+    allowedChars += includeUpperCase ? upperCaseChars : ``;
+    allowedChars += includeNumbers ? numberChars : ``;
+    allowedChars += includeSymbols ? symbolChars : ``;
+
+    if (length <0){
+        return `(Password Length must be at least 1)`
+    }
+    if(allowedChars.length === 0){
+        return `(At least 1 set of characters should be selected)`
+    }
+    for (let i = 0; i<length; i++){
+        const randomIndex = Math.floor(Math.random()* allowedChars.length);
+        password += allowedChars[randomIndex];
+    }
+    return password;
+
+}
+const passwordLength = 12;
+const includeLowerCase = true;
+const includeUpperCase = true;
+const includeNumbers = true;
+const includeSymbols = true;
+const password = generatePassword(passwordLength, includeLowerCase, includeUpperCase, includeNumbers, includeSymbols);
+console.log(`Generated Password: ${password}`) */
+
+
+
+//callback
+/* hello(wait); 
+goodbye();
+function hello(callback){
+   console.log(`Hello`);
+   callback();
+}
+function wait(){
+    console.log(`Wait!`)
+}
+function leave(){
+    console.log(`Leave!`);
+}
+function goodbye(){
+    console.log(`Goodbye!`);
+} */
+/*
+sum(displayPage, 1, 2);
+function sum(callback,x,y){
+    let result = x+y;
+    callback(result);
+}
+function displayConsole(result){
+    console.log(result);
+}
+function displayPage(result){
+    document.getElementById("myH1").textContent = result;
+}
+*/
+
+
+
+
+
+
+//ForEach
+/* let numbers = [1,2,3,4,5];
+numbers.forEach(double);
+
+numbers.forEach(display);
+function double(element, index, array){
+    array[index] = element * 2;
+
+}
+function display(element){
+    console.log(element);
+} */
+/* let fruits = [`apple`, `banana`, `coconut`, `orange`];
+fruits.forEach(capitalize);
+fruits.forEach(display);
+function upperCase(element, index, array){
+    array[index]=element.toUpperCase();
+}
+function lowerCase(element, index, array){
+    array[index]=element.toLowerCase();
+}
+function capitalize(element, index, array){
+    array[index]=element.charAt(0).toUpperCase()+element.slice(1);
+}
+function display(element){
+    console.log(element);
+} */
+
+
